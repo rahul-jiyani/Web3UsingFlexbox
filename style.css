@@ -1,0 +1,79 @@
+.heading{
+  color :orange;
+  text-align: center;
+  text-shadow: 4px -3px 2px #ffcc80;
+}
+.flex-container{
+  display: flex;
+  border-left-style: solid;
+  border-left-width: medium;
+  border-left-color: #f2f2f2;
+  border-right-style: solid;
+  border-right-width: medium;
+  border-right-color: #f2f2f2;
+
+
+  justify-content: space-between;
+    gap: 2rem;
+
+
+}
+
+.flex-container > div {
+  background-color: #527a7a;
+  padding-left: 2px;
+  font-size: 14px;
+  font-family: sans-serif;
+  color: white;
+
+}
+
+.head1 {
+  text-align: center;
+  color: orange;
+  text-shadow: 4px -3px 2px #ffcc80;
+}
+.head2{
+  text-align: center;
+  color: orange;
+  text-shadow: 4px -3px 2px #ffcc80;
+}
+.head3{
+  text-align: center;
+  color: orange;
+  text-shadow: 4px -3px 2px #ffcc80;
+}
+body{
+  background-color: #ccccb3;
+}
+
+.blockchain{
+  border-radius: 50px;
+
+}
+.bitcoin{
+  border-radius: 50px;
+}
+.nft{
+  border-radius: 50px
+}
+
+.bitcoin > img {
+  margin-left: 150px;
+  width: 200px;
+  height: 200px;
+  border-radius: 50px;
+}
+
+.blockchain > img {
+  margin-left: 180px;
+  width: 200px;
+  height: 200px;
+  border-radius: 50px;
+}
+.nft > img {
+  margin-left: 40px;
+  width: 100px;
+  height: 100px;
+  border-radius: 30px;
+}
